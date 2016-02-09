@@ -14,4 +14,4 @@ date: 2014-12-17 02:11:34
 
 その目だれの目。
 
-此外附上鄙人的[github](https://github.com/azzgo)
+此外附上鄙人的 [<i class="fa fa-2x fa-github"></i>](https://github.com/azzgo)
