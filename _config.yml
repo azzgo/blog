@@ -96,5 +96,5 @@ feed:
 #     branch: gitcafe-pages
 deploy:
     type: git
-    repository: git@github.com:vinongo/vinongo.github.io.git
+    repository:  git@github.com:azzgo/azzgo.github.io.git
     # branch: master
