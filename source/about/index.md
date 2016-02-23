@@ -1,10 +1,10 @@
-title: 关于我
+title: Azzgo
 date: 2014-12-17 02:11:34
 ---
 
 一个喜欢倒腾的伪极客
 
-熟悉python语言，热爱开发前端web
+熟悉Python语言，热爱开发前端Web开发
 
 我的[个人页面](http://p.azzfun.net)
 
