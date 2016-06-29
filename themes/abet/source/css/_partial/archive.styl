@@ -1,0 +1,121 @@
+.archives-wrap
+  margin: block-margin 0
+
+.archives
+  clearfix()
+
+.archive-year-wrap
+  margin-bottom: 1em
+
+.archive-year
+  @extend $block-caption
+
+.archives
+  column-gap: 10px
+  @media mq-tablet
+    column-count: 2
+  @media mq-normal
+    column-count: 3
+
+.archive-article
+  avoid-column-break()
+
+.archive-article-inner
+  @extend $block
+  padding: 10px
+  margin-bottom: 15px
+
+.archive-article-title
+  text-decoration: none
+  font-weight: bold
+  color: color-default
+  transition: color 0.2s
+  line-height: line-height
+  &:hover
+    color: color-link
+
+.archive-article-footer
+  margin-top: 1em
+
+.archive-article-date
+  color: color-grey
+  text-decoration: none
+  font-size: 0.85em
+  line-height: 1em
+  margin-bottom: 0.5em
+  display: block
+
+#page-nav
+  clearfix()
+  margin: block-margin auto
+  background: #fff
+  box-shadow: 1px 2px 3px #ddd
+  border: 1px solid color-border
+  border-radius: 3px
+  text-align: center
+  color: color-grey
+  overflow: hidden
+  a, span
+    padding: 10px 20px
+    line-height: 1
+    height: 2ex
+  a
+    color: color-grey
+    text-decoration: none
+    &:hover
+      background: color-grey
+      color: #fff
+  .prev
+    float: left
+  .next
+    float: right
+  .page-number
+    display: inline-block
+    @media mq-mobile
+      display: none
+  .current
+    color: color-default
+    font-weight: bold
+  .space
+    color: color-border
+
+.catabox
+  padding: 25px
+  display: flex
+  display: -webkit-flex
+  flex-flow: row wrap
+.catacard
+  display: inline-block
+  width: 25%
+  min-width: 260px
+  margin: 20px
+  height: 200px
+  background: #3C91F2
+  border-radius: 10px
+  box-shadow: 5px 5px 10px #ccc, -5px -5px 10px #ccc
+  transition: all 300ms ease
+  &:hover
+    box-shadow: 10px 10px 20px #ccc, -5px -5px 10px #ccc
+    transform: translate(-5px, -5px)
+  a
+    text-decoration: none
+    display: flex
+    height: 100%
+    width: 100%
+    text-align: center
+    h1
+      margin: 25% auto
+      font-family: times
+      font-size: 2.5em 
+      color: rgba(255,0,0, 0.75)
+.badge
+  display: inline-block
+  padding: 2px 4px
+  font-size: 11.844px
+  font-weight: bold
+  line-height: 14px
+  color: #ffffff
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25)
+  white-space: nowrap
+  vertical-align: baseline
+  background-color: #999999

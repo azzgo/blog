@@ -12,8 +12,8 @@ language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.azzfun.net
-root: /
+url: http://www.azzfun.net/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 tag_dir: tags
 archive_dir: archives
@@ -96,5 +96,7 @@ feed:
 #     branch: gitcafe-pages
 deploy:
     type: git
-    repository:  git@github.com:azzgo/azzgo.github.io.git
+    #repository:  git@github.com:azzgo/azzgo.github.io.git
+    repository: git@github.com:azzgo/blog.git
+    branch: gh-pages
     # branch: master

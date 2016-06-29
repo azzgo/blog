@@ -1,0 +1,12 @@
+<div class="catabox">
+  <% site.categories.each(function(cata){ %>
+    <div class="catacard">
+      <a href="<%= cata.permalink %>" title="<%= cata.name %>">
+        <h1>
+          <%= cata.name %>
+          <span class="badge"><%= cata.length %></span>
+        </h1>
+      </a>
+    </div>
+  <% }) %>
+</div>
