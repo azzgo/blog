@@ -1,3 +1,3 @@
 # Personal Blog
 
-address: <!http://www.azzfun.net>
+address: <http://www.azzfun.net/blog>
