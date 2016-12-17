@@ -1,3 +1,3 @@
 # Personal Blog
 
-address: <http://www.azzfun.net/blog>
+address: <http://azzgo.github.io/blog>
