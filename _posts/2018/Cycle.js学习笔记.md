@@ -16,13 +16,13 @@ A functional and reactive JavaScript framework for predictable code
 
 这个框架的设计是基于人机交互模型来设计。请看下下面的人机交互示意图，
 
-![](media/15154532991322/15162755558035.png)
+![](media/15162755558035.png)
 
 这图很简单，就是平时我们操作电脑的交互方式。换成 Web 页面，可以将 Computer 换成 Web UI 界面。用户（图中的 Human）通过浏览页面（用户的 Input，通过眼睛感受到）然后经过大脑的处理，可能会输出一个鼠标点击（比如看到一张图片，想打开看看），Web 界面上的图片被鼠标点击了，这就是 Web 界面的一个输入，然后 JS 代码需要处理一些逻辑，然后输出一个变化的界面（比如放大显示的图片）给用户。
 
 更加细节的方面，可以查看下面的视频是作者在 JSConf 上的演讲介绍，需要翻墙观看。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1zj7M1LnJV4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+链接地址:  <https://www.youtube.com/embed/1zj7M1LnJV4>
 
 这个想法非常自然，和用户平时的人机交互模型完全一致。可能大家会觉得没有什么问题，但是开发的同学可以结合下以往的前端项目开发经验，前端开发通常是被视觉交互图驱动的，一般是先通过HTML，CSS还原设计图成网页，然后在网页上添加用户交互相关的逻辑，从而最终实现人机交互。
 
@@ -30,7 +30,7 @@ A functional and reactive JavaScript framework for predictable code
 
 请看下图中 Cycle.js 中官网推荐的代码逻辑划分方式，Cycle.js 的主程序是一个永远在监听和响应用户操作的 main 函数，而随着 main 函数中的逻辑逐渐复杂，可以将代码拆分成下图中的 intent, modal, view 三部分。
 
-![main-eq-mvi](media/15154532991322/main-eq-mvi.png)
+![main-eq-mvi](media/main-eq-mvi.png)
 
 * intent() function
     * Purpose: interpret DOM events as user’s intended actions
@@ -49,7 +49,7 @@ A functional and reactive JavaScript framework for predictable code
 
 前端项目都有收到组件化思想的影响，Cycle.js 也可以通过组件化实现代码复用，Cycle.js 中的组件就是一个函数，介绍上层组件传递下来的 props 流，和事件流，经过处理后返回一个 vitrual dom 流和 value 数据流给父组件。
 
-![dataflow-component](media/15154532991322/dataflow-component.png)
+![dataflow-component](media/dataflow-component.png)
 
 ## 一个最简单的例子
 
@@ -78,7 +78,7 @@ run(main, {
 
 效果展示
 
-<a class="jsbin-embed" href="https://jsbin.com/makuye/2/embed">JS Bin on jsbin.com</a><script src="https://static.jsbin.com/js/embed.min.js?4.1.1"></script>
+请访问 <https://jsbin.com/makuye/2/embed">
 
 可以看到 Cycle.js 中所有的监听和输出都是通过 Stream 实现的，代码中我们首先是去监听 CheckBox 的 `change` 事件，根据事件中的值，觉得 DOM 输出的界面，这里通过 vitual dom 的函数输出，而一开始没有界面就不会有用户交互的区域，所以陷入了一个蛋生鸡，鸡生蛋的问题了，这里需要给这个监听的数据流一个初始值来解决这个问题。
 
@@ -101,7 +101,7 @@ run(main, {
 
 下面我就创建 Note 这个表单作为例子。
 
-![](media/15154532991322/15163206410171.png)
+![](media/15163206410171.png)
 
 这里需要我们在获取到提交按钮的点击事件流后，再将 Note 标题和内容的两条 Stream 合并进来，这样才能在同一个上下文中拿到对应的表单值。
 
@@ -160,8 +160,6 @@ const request$ = DOM.select('#new-note-submit').events('click').map((e) => e.pre
   })
  ```
  
-
-
 **一个组件到底应该返回一个 的 Stream DOM 还是返回一个 Vitual DOM**
 
 你在拆分代码的时候，很容易遇到这个问题，虽然根据上面 `dataflow component` 的参考，你可以都返回一个 Stream。
