@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
