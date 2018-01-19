@@ -1,12 +1,5 @@
 # 亚马逊之IAM
-date: 2016-06-07 14:30:46
-categories:
-- 笔记
-tags:
-- AWS
-- IAM
-- 权限控制
----
+
 IAM是亚马逊的身份认证系统，英文全称是Identity and Access Management。主要管理的是用户或者应用对AWS资源的访问权限控制。
 
 <!--more-->

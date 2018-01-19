@@ -1,11 +1,5 @@
 # JMX 学习笔记
-date: 2016-07-11 21:55:19
-categories:
-- 笔记
-tags:
-- jmx
-- java
----
+
 JMX全称Java Management Extensions, 为Java应用提供管理扩展功能。在Java 5的时候引入
 
 <!--more-->

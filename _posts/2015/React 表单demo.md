@@ -1,11 +1,5 @@
-# react表单demo
-categories:
-- coding
-tags:
-- demo
-- react
-date: 2015-03-22 15:55:33
----
+# React表单demo
+
 
 react 文档看到差不多了, 根据网上的一个登录表单psd文件, 写了个demo, 权当练手.
 

@@ -1,12 +1,5 @@
 # Weex 初步体验
-date: 2016-07-13 21:59:11
-categories:
-- 笔记
-tags:
-- weex
-- Hybird
-- Vue
----
+
 阿里推出的类似React Native和Native Script的从前端都mobile的解决方案，主要研究如何将Front End的开发技术和体验移植到Mobile开发中去。现在看起来阿里想做的方案是一套代码可以在Browser, Android和IOS三个平台几乎无缝的运行。scope可谓大大的。
 
 <!--more-->
