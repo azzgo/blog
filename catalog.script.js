@@ -9,11 +9,11 @@ const catelogMarkDownTemplate = `
 
 以往博客文章归档
 
-<% forEach(keys(groupDocsYearMapping), (year) => { %>
+<% forEach(keys(groupDocsYearMapping).sort().reverse(), (year) => { %>
 ## [<%- year %> 年](./_posts/<%- year %>/)
-  <% forEach(groupDocsYearMapping[year], (groupDoc) => { %>
-  - [<%- groupDoc.title %>](<%- groupDoc.path %>)
-  <% }) %>
+<% forEach(groupDocsYearMapping[year], (groupDoc) => { %>
+- [<%- groupDoc.title %>](<%- groupDoc.path %>)
+<% }) %>
 <% }) %>
 `
 
