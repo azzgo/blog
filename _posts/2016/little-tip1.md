@@ -1,4 +1,4 @@
-title: 【GMAIL】如何在转发邮件时改变邮件主题
+# 【GMAIL】如何在转发邮件时改变邮件主题
 categories: 技巧
 tags: email tech
 date: 2016-01-19 19:23:24

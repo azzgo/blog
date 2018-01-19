@@ -1,10 +1,5 @@
-title: React-展示数据
-date: 2014-12-25 16:57:14
-categories: 文档翻译
-tags:
-- react
-- react 指南
----
+# React-展示数据
+
 
 使用一个 UI 最基本的功能就是你可以展示一下数据. React 可以很容易地展示数据并在数据改变谁保持界面更新一致.
 

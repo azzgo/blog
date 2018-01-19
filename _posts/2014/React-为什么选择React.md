@@ -1,11 +1,5 @@
-title: 为什么选择React
-date: 2014-12-25 16:48:50
-categories: 
-- 文档翻译
-tags: 
-- react
-- react 指南
----
+# 为什么选择React
+
 
 React 是一个由 Facebook 和 Instagram 建立的用来创建用户界面Javascript库. 很多人认为 React 是 **[MVC](http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)** 中的 **V** (视图)层.
 

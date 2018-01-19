@@ -1,4 +1,4 @@
-title: jsx-gotchas
+# jsx-gotchas
 date: 2015-01-22 07:57:44
 categories:
 - 文档翻译

@@ -1,12 +1,4 @@
-title: react demo
-date: 2014-12-29 20:38:40
-categories: 
-- coding
-tags: 
-- demo
-- react
-- material-ui
----
+# React Demo
 
 最近看 Facebook 的 React 库, 有篇[文章](http://ourjs.com/detail/5483d2d10dad0fbb6d000014)可以读下, 蛮有意思的, 预测了下15年js开发的走向.
 

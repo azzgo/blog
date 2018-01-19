@@ -1,13 +1,4 @@
-title: CSS布局
-date: 2014-12-17 13:43:21
-categories:
-- coding
-tags: 
-- web
-- css
-- 布局
-
----
+# CSS布局
 
 ###布局的基本实现方案:固定宽度,流动,弹性.
 

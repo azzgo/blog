@@ -1,8 +1,5 @@
-title: python的优缺点
-date: 2014-12-17 13:46:28
-categories: coding
-tags: python
----
+# Python的优缺点
+
 
 今天学校的模拟的面试问了我python的优缺点,虽然平常用的比较顺,没注意这些.
 

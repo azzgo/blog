@@ -1,11 +1,4 @@
-title: angular2体验
-categories:
-  - 随感
-tags:
-  - angular
-  - es6
-date: 2015-03-12 08:46:53
----
+# angular2体验
 
 angular2的alpha版本测试出来了, 把玩了下, 本人才疏学浅, 不是很明白其中的工作方式, 仅从表面谈谈感想.
 

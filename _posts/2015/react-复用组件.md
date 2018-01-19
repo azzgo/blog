@@ -1,4 +1,4 @@
-title: 复用组件
+# 复用组件
 categories:
   - 文档翻译
 tags:

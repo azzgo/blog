@@ -1,4 +1,4 @@
-title: tornado-一个Tornado-Web-应用结构
+# tornado-一个Tornado-Web-应用结构
 categories:
   - 文档翻译
 tags:

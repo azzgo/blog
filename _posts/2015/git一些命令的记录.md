@@ -1,11 +1,4 @@
-title: git一些命令的记录
-categories:
-  - 技巧
-tags:
-  - git
-  - version control
-date: 2015-09-07 20:57:08
----
+# git一些命令的记录
 
 
 好久没有更新了，记录下最近的历程吧。

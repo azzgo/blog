@@ -1,12 +1,4 @@
-title: pdb的常用命令
-date: 2014-12-17 02:51:38
-categories:
-- 技巧
-tags: 
-- python 
-- debug
-
----
+# Pdb的常用命令
 
 
 ####进入pdb模式

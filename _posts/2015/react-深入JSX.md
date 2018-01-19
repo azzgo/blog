@@ -1,4 +1,4 @@
-title: 深入JSX
+# 深入JSX
 date: 2015-01-22 07:51:15
 categories:
 - 文档翻译

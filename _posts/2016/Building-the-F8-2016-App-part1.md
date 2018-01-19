@@ -1,4 +1,4 @@
-title: 我们如何构建2016 F8 App的 Part1
+# 我们如何构建2016 F8 App的 Part1
 date: 2016-04-24 11:51:26
 categories:
 - 文档翻译

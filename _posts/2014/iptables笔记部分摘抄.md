@@ -1,12 +1,4 @@
-title: iptables笔记(部分摘抄)
-date: 2014-12-17 13:40:02
-categories:
-- 技巧
-tags:
-- linux
-- iptables
-
----
+# Iptables笔记(部分摘抄)
 
 五个hook function（规则链）：
 *Input: 主要和想进入本机的数据包有关(filter)

@@ -1,11 +1,5 @@
-title: Authentication and security
-categories:
-- 文档翻译
-tags:
-- tornado
-- python
-date: 2015-05-24 20:36:51
----
+# Authentication and security
+
 ## Cookies 和 安全 cookies
 
 你可以使用 `set_cookie` 方法在用户的浏览器中设置 cookies.

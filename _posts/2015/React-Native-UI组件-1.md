@@ -1,4 +1,4 @@
-title: 构建原生React Native Android的UI组件 (一)
+# 构建原生React Native Android的UI组件 (一)
 date: 2015-11-23 15:47:12
 categories:
 - coding

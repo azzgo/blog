@@ -1,4 +1,4 @@
-title: 转接 Props
+# 转接 Props
 categories:
   - 文档翻译
 tags:

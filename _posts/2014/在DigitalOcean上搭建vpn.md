@@ -1,12 +1,5 @@
-title: 在DigitalOcean上搭建vpn
-date: 2014-12-17 02:56:45
-categories:
-- 技巧
-tags:
-- linux
-- vpn
+# 在DigitalOcean上搭建vpn
 
----
 
 看来这个[DigitalOcean VPS 上如何安装 VPN](http://blog.eood.cn/digitalocean-vps-vpn)之后就,  跃跃欲试了,不过呢,我选择了ubuntu14.04的image,导致配置文档和他有很大不同,最后我放弃了文章中的搭建方法, 如果你的vpn是ubuntu12.04可以试一试.然后我参考了[Ubuntu Server下建立VPN服务器的方法](http://www.jb51.net/os/Ubuntu/34821.html)的方法,调试了下成功了.
 

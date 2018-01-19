@@ -1,4 +1,4 @@
-title: 2016年React.js最佳实践
+# 2016年React.js最佳实践
 date: 2016-02-10 15:03:34
 categories:
 - 文档翻译
