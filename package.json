@@ -2,8 +2,12 @@
   "name": "blog-artible-archvie",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "precommit": "node catalog.script.js"
+  },
   "dependencies": {
     "glob": "^7.1.2",
+    "husky": "^0.14.3",
     "lodash": "^4.17.4"
   },
   "devDependencies": {}
