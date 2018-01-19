@@ -15,9 +15,9 @@
 
 - [2016年React-js最佳实践](./_posts/2016/2016年React-js最佳实践.md)
 
-- [JMX 学习笔记](./_posts/2016/JMX 学习笔记.md)
+- [JMX-学习笔记](./_posts/2016/JMX-学习笔记.md)
 
-- [Weex 初步体验](./_posts/2016/Weex 初步体验.md)
+- [Weex-初步体验](./_posts/2016/Weex-初步体验.md)
 
 - [亚马逊之IAM](./_posts/2016/亚马逊之IAM.md)
 
@@ -32,7 +32,7 @@
 
 - [git一些命令的记录](./_posts/2015/git一些命令的记录.md)
 
-- [React 表单demo](./_posts/2015/React 表单demo.md)
+- [React-表单demo](./_posts/2015/React-表单demo.md)
 
 
 ## [2014 年](./_posts/2014/)
