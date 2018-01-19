@@ -1,10 +1,4 @@
 # 2016年React.js最佳实践
-date: 2016-02-10 15:03:34
-categories:
-- 文档翻译
-tags:
-- react best-practice redux flux
----
 
 原文：RisingStack的CTO Péter Márton写的[React.js Best Practices for 2016](https://blog.risingstack.com/react-js-best-practices-for-2016/?utm_source=javascriptweekly&utm_medium=email)
 
