@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "precommit": "node catalog.script.js"
+    "prepush": "node catalog.script.js && git ci --amend --no-edit -a"
   },
   "dependencies": {
     "glob": "^7.1.2",
