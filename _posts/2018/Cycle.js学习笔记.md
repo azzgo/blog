@@ -1,5 +1,7 @@
 # Cycle.js 学习笔记
 
+
+
 ## 描述 
 
 A functional and reactive JavaScript framework for predictable code
@@ -158,8 +160,8 @@ const request$ = DOM.select('#new-note-submit').events('click').map((e) => e.pre
       }
     }
   })
- ```
- 
+```
+
 **一个组件到底应该返回一个 的 Stream DOM 还是返回一个 Vitual DOM**
 
 你在拆分代码的时候，很容易遇到这个问题，虽然根据上面 `dataflow component` 的参考，你可以都返回一个 Stream。
