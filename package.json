@@ -8,7 +8,7 @@
   "dependencies": {
     "glob": "^7.1.2",
     "husky": "^0.14.3",
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {}
 }
